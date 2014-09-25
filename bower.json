@@ -1,0 +1,22 @@
+{
+  "name": "contact_widget",
+  "version": "0.0.0",
+  "homepage": "https://github.com/skilowg/contact_widget",
+  "authors": [
+    "skilowg <skilowg@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bower-bourbon": "~3.1.8"
+  }
+}
