@@ -1,5 +1,12 @@
-$color: orange;
+@import "config";
+// @import "./sass_reset";
+
+$color: $alpha-gray;
 
 body {
   background-color: $color;
+}
+
+html {
+  font-family: arial;
 }

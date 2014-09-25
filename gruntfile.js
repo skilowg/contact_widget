@@ -6,10 +6,10 @@ module.exports = function(grunt) {
           'public/stylesheets/style.css': 'sass/style.scss'
         },
         options: {
-          sourceMap: true,
+          // sourceMap: true,
           includePaths: [
             require('node-bourbon').includePaths,
-            './bower_components/color-scale',
+            './bower_components/color-scale/',
             './bower_components/type-rhythm-scale',
             './bower_components/rwd-toolkit'
           ]
