@@ -9,6 +9,11 @@ module.exports = function(grunt) {
           // sourceMap: true,
           includePaths: [
             require('node-bourbon').includePaths,
+            './bower_components/bower-bourbon/',
+            './bower_components/bower-bourbon/addons',
+            './bower_components/bower-bourbon/css3',
+            './bower_components/bower-bourbon/functions',
+            './bower_components/bower-bourbon/helpers',
             './bower_components/color-scale/',
             './bower_components/type-rhythm-scale',
             './bower_components/rwd-toolkit'
